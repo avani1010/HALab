@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/retsart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="279dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="monospace"
+        android:text="RESTART"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <Button
+        android:id="@+id/rewind"
+        android:layout_width="279dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="monospace"
+        android:text="REWIND"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_media_rew"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="279dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="monospace"
+        android:text="STOP"
+        android:textSize="20sp"
+        app:icon="@android:drawable/picture_frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="279dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="monospace"
+        android:text="FORWARD"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_media_ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="279dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="monospace"
+        android:text="PLAY"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="279dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="monospace"
+        android:text="PAUSE"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_media_pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:fontFamily="cursive"
+        android:text="Media Player"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="48sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
